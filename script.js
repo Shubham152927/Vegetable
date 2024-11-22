@@ -124,7 +124,7 @@ $(function(){
 
   //choose random fruits
   function chooseRandom(){
-      $('#fruit1').attr('src','https://raw.githubusercontent.com/Saumya-07/Fruit-Slicer/master/images/' + fruits[Math.round(9*Math.random())]+'.png');
+    $('#fruit1').attr('src','https://raw.githubusercontent.com/Shubham152927/Vegetable/refs/heads/main/images/' + fruits[Math.round(9*Math.random())]+'.png');
   }
    // Stop Action
    function stopAction(){
